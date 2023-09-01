@@ -1,0 +1,40 @@
+.required{
+    font-style: italic;
+    color: red;
+    display: inline;
+}
+
+/*.paragraph{
+    display: inline;
+}*/
+
+.clear{
+    vertical-align: middle;
+}
+
+.description{
+    width: 40%;
+    height: 80px;
+    padding: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13pt;
+    text-justify: center;
+}
+
+.div{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.button1{
+    width: fit-content;
+    height: fit-content;
+    background-color: green;
+    color: white;
+}
+
+.button2{
+    width: fit-content;
+    height: fit-content;
+    background-color: red;
+    color: white;
+}
