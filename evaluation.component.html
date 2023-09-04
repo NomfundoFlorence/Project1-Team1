@@ -1,0 +1,20 @@
+<h1>Evaluation Page</h1>
+
+<h2>Innovation</h2>
+<input type="number" [(ngModel)]="innovationScore">
+
+<h2>Feasibility</h2>
+<input type="number" [(ngModel)]="feasibilityScore">
+
+<h2>Market Potential</h2>
+<input type="number" [(ngModel)]="marketPotentialScore">
+
+<h2>Social Impact</h2>
+<input type="number" [(ngModel)]="socialImpactScore">
+
+<button (click)="evaluateProject()">Evaluate Project</button>
+
+<button (click)="resetScores()">Reset Scores</button>
+
+<p>The overall score of the project is: {{ overallScore }}</p>
+
